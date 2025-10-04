@@ -1,524 +1,524 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* -----Common css start---- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    display: inline-block;
+  text-decoration: none;
+  display: inline-block;
 }
 
 :root {
-    --dmfont: "DM Sans", sans-serif;
-    --roboto: "Roboto", sans-serif;
-    --robserif: "Roboto Serif", serif;
-    --wcolor: #FBFBFB;
-    --bcolor: #0C0C0C;
-    --brandclr: #64CCC5;
-    --f4color: #f4f4f4f4;
+  --dmfont: "DM Sans", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --robserif: "Roboto Serif", serif;
+  --wcolor: #fbfbfb;
+  --bcolor: #0c0c0c;
+  --brandclr: #64ccc5;
+  --f4color: #f4f4f4f4;
 }
 
 .commonHead {
-    font-size: 64px;
-    font-weight: 600;
-    font-family: var(--robserif);
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--robserif);
 }
 
 /* -----Common css end---- */
 
 /* ----Navbar Start------ */
 .main_menu {
-    background: transparent !important;
-    position: absolute;
-    z-index: 3;
-    width: 100%;
-    top: 44px;
+  background: transparent !important;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  top: 44px;
 }
 
 .navbar_anchor {
-    color: var(--wcolor);
-    font-family: var(--dmfont);
-    margin: 0 30px 0 0;
-    position: relative;
+  color: var(--wcolor);
+  font-family: var(--dmfont);
+  margin: 0 30px 0 0;
+  position: relative;
 }
 
 .navbar_anchor::before {
-    content: '';
-    display: inline-block;
-    width: 0;
-    height: 2px;
-    background: var(--wcolor);
-    position: absolute;
-    top: 100%;
-    transition: all linear 0.3s;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 2px;
+  background: var(--wcolor);
+  position: absolute;
+  top: 100%;
+  transition: all linear 0.3s;
 }
 
 .navbar_anchor:hover::before {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 2px;
-    background: var(--wcolor);
-    position: absolute;
-    top: 100%;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background: var(--wcolor);
+  position: absolute;
+  top: 100%;
 }
 
-
 .touch {
-    padding: 12px 15px;
-    border-radius: 23px;
-    border: none;
-    outline: var(--wcolor);
-    color: var(--bcolor);
-    background: var(--wcolor);
+  padding: 12px 15px;
+  border-radius: 23px;
+  border: none;
+  outline: var(--wcolor);
+  color: var(--bcolor);
+  background: var(--wcolor);
 }
 
 /* ----Navbar end------ */
 
 /* ----Banner Start------ */
 #banner {
-    background: url(../images/banner_bg.png);
-    position: relative;
-    background-size: cover;
-    padding-top: 112px;
-    padding-bottom: 94px;
+  background: url(../images/banner_bg.png);
+  position: relative;
+  background-size: cover;
+  padding-top: 112px;
+  padding-bottom: 94px;
 }
 
 .dots {
-    position: absolute;
-    top: 167px;
-    left: 0;
+  position: absolute;
+  top: 167px;
+  left: 0;
 }
 
 #bannerText {
-    margin-top: 249px;
+  margin-top: 249px;
 }
 
 #bannerText h1 {
-    width: 608px;
-    font-size: 64px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--wcolor);
+  width: 608px;
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--wcolor);
 }
 
 #bannerText h1 span {
-    color: var(--brandclr);
+  color: var(--brandclr);
 }
 
 #bannerText p {
-    width: 557px;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--wcolor);
-    letter-spacing: 0.03em;
-    margin-top: 24px;
+  width: 557px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--wcolor);
+  letter-spacing: 0.03em;
+  margin-top: 24px;
 }
 
 #bannerText a {
-    padding: 11px 20px 11px 10px;
-    background-color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--bcolor);
-    border-radius: 23px;
-    margin-top: 32px;
-    transition: all linear 0.4s;
+  padding: 11px 20px 11px 10px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--bcolor);
+  border-radius: 23px;
+  margin-top: 32px;
+  transition: all linear 0.4s;
 }
 
 #bannerText a i {
-    font-size: 28px;
-    vertical-align: middle;
+  font-size: 28px;
+  vertical-align: middle;
 }
 
 #bannerText a:hover {
-    color: #000000;
-    padding: 15px 24px 15px 14px;
-    font-size: 22px;
+  color: #000000;
+  padding: 15px 24px 15px 14px;
+  font-size: 22px;
 }
 
 #bannerText .partnersText {
-    margin-top: 171px;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--brandclr);
+  margin-top: 171px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--brandclr);
 }
 
 .bannerPhoto {
-    position: absolute;
-    right: -22px;
-    top: 2px;
+  position: absolute;
+  right: -22px;
+  top: 2px;
 }
 
 /* ----Banner end------ */
 
 /* ----Service Start------ */
 #support {
-    padding-top: 97px;
-    padding-bottom: 93px;
+  padding-top: 97px;
+  padding-bottom: 93px;
 }
 
 #support h3 {
-    font-size: 30px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--brandclr);
-    text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--brandclr);
+  text-align: center;
 }
 
 #support h2 {
-    width: 695px;
-    color: var(--bcolor);
-    text-align: center;
-    margin: 0 auto;
+  width: 695px;
+  color: var(--bcolor);
+  text-align: center;
+  margin: 0 auto;
 }
 
 .bannerCards1 {
-    display: flex;
-    gap: 66px;
-    column-gap: 92px;
-    flex-wrap: nowrap;
+  display: flex;
+  gap: 66px;
+  column-gap: 92px;
+  flex-wrap: nowrap;
 }
 
 .bannerCards2 {
-    display: flex;
-    gap: 66px;
-    column-gap: 92px;
-    flex-wrap: nowrap;
+  display: flex;
+  gap: 66px;
+  column-gap: 92px;
+  flex-wrap: nowrap;
 }
 
 .bannerSingle_card {
-    width: 423px;
-    padding: 45px;
-    margin-top: 92px;
-    background: #F4F4F4;
-    border-radius: 20px;
-    transition: all linear .4s;
+  width: 423px;
+  padding: 45px;
+  margin-top: 92px;
+  background: #f4f4f4;
+  border-radius: 20px;
+  transition: all linear 0.4s;
 }
 
 .supportIcon {
-    width: 80px;
-    height: 80px;
-    background: var(--bcolor);
-    border-radius: 50%;
-    color: var(--wcolor);
-    font-size: 33.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all linear .4s;
+  width: 80px;
+  height: 80px;
+  background: var(--bcolor);
+  border-radius: 50%;
+  color: var(--wcolor);
+  font-size: 33.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all linear 0.4s;
 }
 
 #support .bannerSingle_card h2 {
-    width: 232px;
-    margin: 0;
-    font-size: 25px;
-    font-weight: 500;
-    font-family: var(--robserif);
-    color: var(--bcolor);
-    margin-top: 62px;
-    transition: all linear .4s;
+  width: 232px;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: var(--robserif);
+  color: var(--bcolor);
+  margin-top: 62px;
+  transition: all linear 0.4s;
 }
 
 #support .bannerSingle_card p {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--bcolor);
-    margin-top: 15px;
-    transition: all linear .4s;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--bcolor);
+  margin-top: 15px;
+  transition: all linear 0.4s;
 }
 
 #support .bannerSingle_card:hover {
-    background-color: var(--bcolor);
+  background-color: var(--bcolor);
 }
 
 #support .bannerSingle_card:hover .supportIcon {
-    background-color: var(--wcolor);
-    color: var(--bcolor);
+  background-color: var(--wcolor);
+  color: var(--bcolor);
 }
 
 #support .bannerSingle_card:hover h2 {
-    color: var(--wcolor);
+  color: var(--wcolor);
 }
 
 #support .bannerSingle_card:hover p {
-    color: var(--wcolor);
+  color: var(--wcolor);
 }
 
 /* ----Service end------ */
 #mission {
-    background: var(--bcolor);
-    padding: 100px 0 100px 0;
+  background: var(--bcolor);
+  padding: 100px 0 100px 0;
 }
 
 .mission {
-    display: flex;
-    gap: 72px;
+  display: flex;
+  gap: 72px;
 }
 
 .missionText {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .missionText h4 {
-    font-size: 30px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--brandclr);
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--brandclr);
 }
 
 .missionText h2 {
-    width: 586px;
-    font-size: 64px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--wcolor);
-    margin-top: 25px;
+  width: 586px;
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--wcolor);
+  margin-top: 25px;
 }
 
 .missionText p {
-    width: 557px;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--wcolor);
-    margin-top: 25px;
+  width: 557px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--wcolor);
+  margin-top: 25px;
 }
 
 .missionText a {
-    background: var(--wcolor);
-    font-size: 20px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    padding: 11px 20px 11px 10px;
-    margin-top: 32px;
-    border-radius: 23px;
-    color: var(--bcolor);
+  background: var(--wcolor);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  padding: 11px 20px 11px 10px;
+  margin-top: 32px;
+  border-radius: 23px;
+  color: var(--bcolor);
 }
 
 .counterContent {
-    display: flex;
-    gap: 59px;
+  display: flex;
+  gap: 59px;
 }
 
 .missionText .counter {
-    margin-top: 25px;
-    width: 147px;
+  margin-top: 25px;
+  width: 147px;
 }
 
 .missionText .counter h3 {
-    font-size: 45px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--brandclr);
+  font-size: 45px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--brandclr);
 }
 
 .missionText .counter p {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--wcolor);
-    margin-top: 9px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--wcolor);
+  margin-top: 9px;
 }
 
 /* ----Process Start------ */
 #process {
-    padding-top: 107px;
-    padding-bottom: 129px;
+  padding-top: 107px;
+  padding-bottom: 129px;
 }
 
 #process h3 {
-    font-size: 30px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--brandclr);
-    text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--brandclr);
+  text-align: center;
 }
 
 #process .commonHead {
-    width: 628px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 24px;
+  width: 628px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 24px;
 }
 
 .processRow {
-    display: flex;
-    /* gap: 145px; */
-    justify-content: space-between;
-    margin-top: 87px;
+  display: flex;
+  /* gap: 145px; */
+  justify-content: space-between;
+  margin-top: 87px;
 }
 
 .singleProcess_card {
-    width: 199px;
+  width: 199px;
 }
 
 .processTitle {
-    display: flex;
-    gap: 9px;
-    align-items: center;
+  display: flex;
+  gap: 9px;
+  align-items: center;
 }
 
 .processTitle h2 {
-    font-size: 30.17px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--bcolor);
+  font-size: 30.17px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--bcolor);
 }
 
 .singleProcess_card p {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--bcolor);
-    margin-top: 36px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--bcolor);
+  margin-top: 36px;
 }
 
 /* ----Process end------ */
 /* ----Showcase start------ */
-#showcase{
-    padding-bottom: 116px;
+#showcase {
+  padding-bottom: 116px;
 }
 #showcase .container .commonHead {
-    text-align: center;
+  text-align: center;
 }
 
 .showcaseDisplay {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .showcaseColumn {
-    width: 664px;
+  width: 664px;
 }
 
 .topCard {
-    margin-top: 85px;
+  margin-top: 85px;
 }
 
 .pointIcon {
-    width: 50px;
-    transform: translate(-50%, -50%) scale(0);
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 43%;
-    transition: all linear .3s;
+  width: 50px;
+  transform: translate(-50%, -50%) scale(0);
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 43%;
+  transition: all linear 0.3s;
 }
 
 .pointIcon img {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .singleShowcase_card {
-    position: relative;
+  position: relative;
 }
 
 .showcaseImg:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .showcaseImg:hover .pointIcon {
-    transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .singleShowcase_card img {
-    width: 595px;
+  width: 595px;
 }
 
 .singleShowcase_card h3 {
-    font-size: 30px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--bcolor);
-    margin-top: 16px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--bcolor);
+  margin-top: 16px;
 }
 
 .singleShowcase_card p {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--bcolor);
-    margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--bcolor);
+  margin-top: 10px;
 }
 
 .showcaseColumn2 {
-    margin-top: 159px;
+  margin-top: 159px;
 }
 
 .freeTrial {
-    text-align: end;
-    margin-bottom: 63px;
+  text-align: end;
+  margin-bottom: 63px;
 }
 
 .freeTrial a {
-    background-color: var(--bcolor);
-    padding: 11px 20px 11px 10px;
-    border-radius: 23px;
-    display: inline-block;
-    margin-left: auto;
-    color: var(--wcolor);
+  background-color: var(--bcolor);
+  padding: 11px 20px 11px 10px;
+  border-radius: 23px;
+  display: inline-block;
+  margin-left: auto;
+  color: var(--wcolor);
 }
 
 .bottomCard {
-    margin-top: 88px;
+  margin-top: 88px;
 }
 
 /* ----Showcase end------ */
 /* ----Quotes start------ */
-.backgroundClr{
-    background: var(--f4color);
-    padding: 45px 0;
+.backgroundClr {
+  background: var(--f4color);
+  padding: 45px 0;
 }
-.quoteContent h3{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: var(--robserif);
-    color: var(--bcolor);
-    text-align: center;
-    margin-top: 35px;
+.quoteContent h3 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--robserif);
+  color: var(--bcolor);
+  text-align: center;
+  margin-top: 35px;
 }
-.quoteContent h4{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: var(--robserif);
-    color: var(--bcolor);
-    text-align: center;
-    margin-top: 35px;
-}
-
-.quoteContent p{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: var(--dmfont);
-    color: var(--bcolor);
-    text-align: center;
-    margin-top: 5px;
+.quoteContent h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: var(--bcolor);
+  text-align: center;
+  margin-top: 35px;
 }
 
-.quoteContent .sliderImg{
-    display: block;
-    text-align: center;
-    /* margin: 0 auto; */
+.quoteContent p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--bcolor);
+  text-align: center;
+  margin-top: 5px;
 }
-.quoteImg{
-    width: 150px;
-    text-align: center;
-    margin: 0 auto;
+
+.quoteContent .sliderImg {
+  display: block;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.quoteImg {
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* ----Quotes end------ */
