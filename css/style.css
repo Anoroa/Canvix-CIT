@@ -48,7 +48,7 @@ a {
   color: var(--wcolor);
   font-family: var(--dmfont);
   margin: 0 30px 0 0;
-  position: relative;
+  position: relative  ;
 }
 
 .navbar_anchor::before {
@@ -268,18 +268,18 @@ a {
   gap: 72px;
 }
 
-.missionText {
+.mission .missionText {
   margin-top: 80px;
 }
 
-.missionText h4 {
+.mission .missionText h4 {
   font-size: 30px;
   font-weight: 600;
   font-family: var(--robserif);
   color: var(--brandclr);
 }
 
-.missionText h2 {
+.mission .missionText h2 {
   width: 586px;
   font-size: 64px;
   font-weight: 600;
@@ -288,7 +288,7 @@ a {
   margin-top: 25px;
 }
 
-.missionText p {
+.mission .missionText p {
   width: 557px;
   font-size: 18px;
   font-weight: 400;
@@ -297,7 +297,7 @@ a {
   margin-top: 25px;
 }
 
-.missionText a {
+.mission .missionText a {
   background: var(--wcolor);
   font-size: 20px;
   font-weight: 400;
@@ -460,12 +460,12 @@ a {
   margin-top: 159px;
 }
 
-.freeTrial {
+.showcaseColumn2 .freeTrial {
   text-align: end;
   margin-bottom: 63px;
 }
 
-.freeTrial a {
+.showcaseColumn2 .freeTrial a {
   background-color: var(--bcolor);
   padding: 11px 20px 11px 10px;
   border-radius: 23px;
@@ -480,6 +480,9 @@ a {
 
 /* ----Showcase end------ */
 /* ----Quotes start------ */
+#quotes{
+  margin-bottom: 100px;
+}
 .backgroundClr {
   background: var(--f4color);
   padding: 45px 0;
@@ -522,3 +525,96 @@ a {
 }
 
 /* ----Quotes end------ */
+/* ----Footer start------ */
+#footer{
+  background: var(--bcolor);
+  padding: 100px 0 60px 0;
+}
+
+.footerLinks{
+  display: flex;
+}
+
+.column1 p{
+  width: 357px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--wcolor);
+  margin-top: 24px;
+}
+.column2{
+  margin-left: 105px;
+}
+.column2 h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: #fff;
+}
+.column2 ul{
+  padding: 0;
+  margin-top: 24px;
+}
+
+.column2 ul li a{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--f4color);
+  margin-top: 16px;
+}
+
+.column3{
+  margin-left: 105px;
+}
+.column3 h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: #fff;
+}
+.column3 ul{
+  padding: 0;
+  margin-top: 24px;
+}
+
+.column3 ul li a{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--f4color);
+  margin-top: 16px;
+}
+.footerEmail{
+  margin-left: 105px;
+}
+.footerEmail form{
+  width: 433px;
+  height: 67px;
+  background-color: #fbfbfb;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerEmail_form{
+  width: 188px;
+}
+
+.footerEmail form button{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  border: none;
+  outline: none;
+  background-color: var(--bcolor);
+}
+.footerEmail h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--robserif);
+  color: #fff;
+}
+
+/* ----Footer end------ */
