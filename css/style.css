@@ -533,6 +533,7 @@ a {
 
 .footerLinks{
   display: flex;
+  justify-content: space-between;
 }
 
 .column1 p{
@@ -543,9 +544,7 @@ a {
   color: var(--wcolor);
   margin-top: 24px;
 }
-.column2{
-  margin-left: 105px;
-}
+
 .column2 h3{
   font-size: 20px;
   font-weight: 600;
@@ -565,9 +564,6 @@ a {
   margin-top: 16px;
 }
 
-.column3{
-  margin-left: 105px;
-}
 .column3 h3{
   font-size: 20px;
   font-weight: 600;
@@ -586,35 +582,85 @@ a {
   color: var(--f4color);
   margin-top: 16px;
 }
-.footerEmail{
-  margin-left: 105px;
+
+.footerEmail h3{
+  font-size: 20px;
+  font-family: 600;
+  font-family: var(--robserif);
+  color: #fff;
+  margin-bottom: 19px;
 }
-.footerEmail form{
+.email{
   width: 433px;
   height: 67px;
-  background-color: #fbfbfb;
-  display: inline-block;
+  background-color: #f4f4f4;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 9px 10px 23px;
+}
+
+.email input{
+  background-color: #f4f4f4;
+  border: none;
+}
+.email button{
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: var(--bcolor);
+  color: var(--wcolor);
+}
+#horizontalBreak{
+  color: #f4f4f4;
+  opacity: 40%;
+  margin-top: 101px;
+  margin-bottom: 29px;
+}
+.contactLinks{
   display: flex;
   justify-content: space-between;
 }
 
-#footerEmail_form{
-  width: 188px;
-}
-
-.footerEmail form button{
-  font-size: 18px;
-  font-weight: 400;
-  font-family: var(--dmfont);
-  border: none;
-  outline: none;
-  background-color: var(--bcolor);
-}
-.footerEmail h3{
+.contactLinks .c1,.c2,.c3 h4{
   font-size: 20px;
   font-weight: 600;
   font-family: var(--robserif);
-  color: #fff;
+  color: var(--f4color);
 }
 
+.contactLinks .c1,.c2,.c3 p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--dmfont);
+  color: var(--f4color);
+  letter-spacing: 0.03rem;
+}
+.footerIcons{
+  display: flex;
+  gap: 29px;
+}
+
+.ficons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--f4color);
+  position: relative;
+}
+.footerIcons div a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footerIcons div a i{
+  color: var(--bcolor);
+  font-size: 22px;
+}
 /* ----Footer end------ */
+
