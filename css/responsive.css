@@ -197,24 +197,25 @@
   #footer {
     padding: 35px 0 60px 0;
   }
-  .footerLinks{
+  .footerLinks {
     flex-wrap: wrap;
   }
-  .footerLinks .column1 .logo{
+  .footerLinks .column1 .logo {
     width: 95px;
   }
   .column1 p {
     width: 100%;
     font-size: 15px;
   }
-  .column2{
+  .column2 {
     margin-top: 20px;
   }
-  .column3{
+  .column3 {
     margin-top: 20px;
   }
-  .footerEmail{
+  .footerEmail {
     width: 100%;
+    margin-top: 20px;
   }
   .email {
     width: 100%;
@@ -226,11 +227,145 @@
     align-items: center;
     justify-content: center;
   }
-  .email button{
+  .email button {
     width: 245px;
   }
-  .contactLinks{
+  .contactLinks {
     flex-wrap: wrap;
   }
 
 }
+
+
+/* -----------sm--------------- */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .commonHead {
+    font-size: 38px;
+  }
+  .dots {
+    width: 84px;
+  }
+  .supportTitle {
+    width: 100%;
+  }
+  .bannerCards1{
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerCards2{
+    justify-content: center;
+    align-items: center;
+  }
+  #mission {
+    padding: 45px;
+  }
+  .mission{
+    flex-wrap: wrap;
+  }
+  .mission .missionText {
+    margin-top: 8px;
+  }
+  .missionImg{
+    display: none;
+  }
+  #process {
+    padding-bottom: 110px;
+  }
+  .showcaseColumn2 .freeTrial {
+    text-align: end;
+  }
+  .footerEmail{
+    margin-top: 20px;
+  }
+  .footerEmail {
+    margin-top: 32px;
+  }
+  .email{
+    justify-content: space-between;
+  }
+
+ }
+
+
+ /* ----------md---------- */
+ @media (min-width: 768px) and (max-width: 990.98px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .hamburgerMenu {
+    width: fit-content !important;
+    background-color: black;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+  }
+  .hamburgerMenu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .bannerPhoto {
+    z-index: -1;
+  }
+  #bannerText {
+    margin-top: 145px;
+  }
+  .bannerSingle_card {
+    width: 302px;
+  }
+  /* .bannerCards1 {
+    width: 100%;
+  }
+  .bannerCards1 {
+    flex-wrap: wrap;
+  }
+  .bannerCards2 {
+    flex-wrap: wrap;
+  } */
+  .missionImg{
+    display: none;
+  }
+  .mission .missionText {
+    margin-top: 40px;
+  }
+  .processRow{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .processImg{
+    width: 50px;
+  }
+  .processTitle{
+    align-items: center;
+  }
+  .topCard {
+    margin-top: 67px;
+  }
+  .showcaseImg{
+    width: 296px;
+  }
+  .singleShowcase_card img {
+    width: 100%;
+
+  }
+  .singleShowcase_card h3 {
+    font-size: 26px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  .footerLinks{
+    flex-wrap: wrap;
+  }
+  .contactLinks{
+    flex-wrap: wrap;
+  }
+  .support{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .services{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+ }
