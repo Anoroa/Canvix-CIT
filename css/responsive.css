@@ -115,7 +115,9 @@
   .counterContent {
     gap: 14px;
   }
-
+  .missionImg{
+    display: none;
+  }
   .mission .missionText a {
     margin-top: 15px;
   }
