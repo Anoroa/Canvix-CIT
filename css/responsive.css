@@ -1,0 +1,236 @@
+@media (max-width: 576.98px) {
+  /* ---------xs------ */
+  /* Common */
+  .commonHead {
+    width: 100%;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: var(--robserif);
+    text-align: center;
+  }
+  /* Navbar */
+  .main_menu {
+    top: 15px;
+  }
+  .navLogo {
+    width: 125px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .hamburgerMenu {
+    width: fit-content !important;
+    background-color: black;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+  }
+  .hamburgerMenu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .touch {
+    width: 100%;
+  }
+  /* Banner */
+  .dots {
+    width: 58px;
+    left: -10px;
+    top: 90px;
+  }
+  .bannerPhoto {
+    display: none;
+  }
+  #bannerText {
+    margin-top: 18px;
+    width: 100%;
+  }
+  #bannerText h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+  #bannerText p {
+    width: 100%;
+    font-size: 13px;
+  }
+  #bannerText .partnersText {
+    margin-top: 64px;
+    font-size: 16px;
+  }
+  .partners {
+    display: flex;
+  }
+
+  /* Support */
+  #support {
+    padding-top: 68px;
+  }
+  #support h3 {
+    font-size: 20px;
+  }
+  .supportIcon {
+    width: 63px;
+    height: 63px;
+  }
+  #support .bannerSingle_card h2 {
+    width: 100%;
+    margin-top: 23px;
+  }
+  .bannerCards1 {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .bannerCards2 {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .bannerSingle_card {
+    margin-top: 50px;
+  }
+  .supportTitle {
+    width: 260px;
+  }
+
+  /* Mission */
+  .mission .missionText h4 {
+    font-size: 18px;
+  }
+  #mission {
+    padding: 12px 0;
+  }
+  .mission .missionText {
+    margin-top: 50px;
+  }
+  .mission {
+    gap: 0;
+  }
+  .mission .missionText h2 {
+    width: 100%;
+    font-size: 33px;
+  }
+  .mission .missionText p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .counterContent {
+    gap: 14px;
+  }
+
+  .mission .missionText a {
+    margin-top: 15px;
+  }
+  .missionText .counter h3 {
+    font-size: 36px;
+  }
+  .missionText .counter p {
+    margin-top: 0px;
+  }
+
+  /* Process */
+  #process {
+    padding-top: 50px;
+    padding-bottom: 129px;
+  }
+  #process h3 {
+    font-size: 23px;
+    font-weight: 600;
+    font-family: var(--robserif);
+    color: var(--brandclr);
+    text-align: center;
+  }
+  #process .commonHead {
+    width: 100%;
+    margin-top: 3px;
+  }
+  .processRow {
+    margin-top: 36px;
+    flex-wrap: wrap;
+  }
+
+  .processImg {
+    width: 45px;
+  }
+  .singleProcess_card {
+    margin-left: 55px;
+    margin-top: 14px;
+  }
+  /* Showcase */
+  .pointIcon {
+    width: 30px;
+  }
+  .singleShowcase_card h3 {
+    font-size: 20px;
+  }
+  .singleShowcase_card p {
+    font-size: 12px;
+  }
+  .topCard {
+    margin-top: 30px;
+  }
+  .showcaseColumn2 .freeTrial {
+    text-align: start;
+    margin-bottom: 0;
+    font-size: 11px;
+  }
+  .showcaseColumn2 {
+    margin-left: 8px;
+    margin-top: 68px;
+  }
+  #showcase {
+    padding-bottom: 30px;
+  }
+  /* Quotes */
+  .quoteContent h3 {
+    font-size: 16px;
+  }
+  .quoteContent h4 {
+    font-size: 12px;
+  }
+  .quoteContent p {
+    font-size: 12px;
+  }
+
+  #quotes {
+    margin-bottom: 60px;
+  }
+  /* Footer */
+  #footer {
+    padding: 35px 0 60px 0;
+  }
+  .footerLinks{
+    flex-wrap: wrap;
+  }
+  .footerLinks .column1 .logo{
+    width: 95px;
+  }
+  .column1 p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .column2{
+    margin-top: 20px;
+  }
+  .column3{
+    margin-top: 20px;
+  }
+  .footerEmail{
+    width: 100%;
+  }
+  .email {
+    width: 100%;
+    height: fit-content;
+    padding: 8px 8px 8px 8px;
+    border-radius: 22px;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  .email button{
+    width: 245px;
+  }
+  .contactLinks{
+    flex-wrap: wrap;
+  }
+
+}

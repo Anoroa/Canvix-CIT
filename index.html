@@ -12,14 +12,15 @@
     />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <!-- ------------Navbar start------------- -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary main_menu">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><img src="images/logo.png" alt="logo"
-        /></a>
+          ><div class="navLogo"><img src="images/logo.png" alt="logo" /></div
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,10 +30,10 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
         </button>
         <!-- Navbar collapse -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse hamburgerMenu" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
             <li class="nav-item">
               <a class="navbar_anchor" aria-current="page" href="#">Home</a>
@@ -53,7 +54,9 @@
 
     <!-- ------------Banner start------------- -->
     <section id="banner">
-      <img src="images/bannerPat.png" alt="dots" class="dots" />
+      <div class="dots">
+        <img src="images/bannerPat.png" alt="dots" />
+      </div>
       <div class="container">
         <div class="row">
           <!-- Text -->
@@ -73,16 +76,18 @@
 
             <p class="partnersText">Trusted by Leading Brands</p>
             <div class="partners">
-              <img src="images/brand1.png" alt="partnered groups/companies" />
-              <img src="images/brand2.png" alt="partnered groups/companies" />
-              <img src="images/brand3.png" alt="partnered groups/companies" />
-              <img src="images/brand4.png" alt="partnered groups/companies" />
+              <div><img src="images/brand1.png" alt="partnered groups/companies" /></div>
+              <div><img src="images/brand2.png" alt="partnered groups/companies" /></div>
+              <div><img src="images/brand3.png" alt="partnered groups/companies" /></div>
+              <div><img src="images/brand4.png" alt="partnered groups/companies" /></div>
             </div>
           </div>
         </div>
       </div>
       <!-- Banner Image -->
-      <img src="images/bannerPhoto.png" alt="bannerpic" class="bannerPhoto" />
+      <div class="bannerPhoto">
+        <img src="images/bannerPhoto.png" alt="bannerpic" />
+      </div>
     </section>
     <!-- ------------Banner end------------- -->
 
@@ -90,7 +95,7 @@
     <section id="support">
       <div class="container">
         <h3>Our Services</h3>
-        <h2 class="commonHead">High-impact services for your business</h2>
+        <div class="supportTitle"><h2 class="commonHead">High-impact services for your business</h2></div>
         <div class="row">
           <div class="col-lg-12">
             <div class="bannerCards1">
@@ -396,29 +401,31 @@
               </div>
               <!-- col3 -->
               <div class="column3">
-                <h3>Utility Pages </h3>
+                <h3>Utility Pages</h3>
                 <ul>
                   <li><a href="">Style Guide </a></li>
                   <li><a href="">Instruction</a></li>
                   <li><a href="">License</a></li>
                   <li><a href="">Changelog </a></li>
-                  <li><a href="">Error  404 </a></li>
+                  <li><a href="">Error 404 </a></li>
                   <li><a href="">Password Protected </a></li>
                 </ul>
               </div>
               <!-- col4 -->
               <div class="footerEmail">
                 <h3>Subscribe</h3>
-                <form class="email">
-                  <input type="email" id="footerEmail_form" placeholder="Enter your email here">
+                <div class="email">
+                  <input
+                    type="email"
+                    id="footerEmail_form"
+                    placeholder="Enter your email here"
+                  />
                   <button>Subscribe</button>
-                </form>
+                </div>
               </div>
-
             </div>
 
-
-            <hr id="horizontalBreak">
+            <hr id="horizontalBreak" />
             <div class="contactLinks">
               <div class="c1">
                 <h4>Copyright by</h4>
@@ -434,16 +441,15 @@
               </div>
               <div class="footerIcons">
                 <div class="ficons">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 </div>
                 <div class="ficons">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <div class="ficons">
-                  <a href='#'><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
